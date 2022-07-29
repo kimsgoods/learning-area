@@ -21,7 +21,6 @@
     <section class="preview">
 
 
-
     </section>
 
   </body>
@@ -30,7 +29,10 @@
     const para = document.createElement('p');
 
     // Add your code here
-
+    function chooseName(){
+      para.innerHTML= names[Math.floor(Math.random()*names.length)];
+      return 1;
+    }
     // Don't edit the code below here!
 
     const section = document.querySelector('section');
